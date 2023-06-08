@@ -250,11 +250,13 @@ main {
 
 .bottom-container{
   position: absolute;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
   bottom: 0;
 }
 
 #copyright{
+  margin-top: 0.75rem !important;
   letter-spacing: var(--spacing);
   line-height: 1.25;
   font-family: var(--ff-primary);
